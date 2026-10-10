@@ -41,3 +41,14 @@ summary,.faq-list summary{color:var(--deep-text)}
 .section-copy,.author-copy,.problem-section .section-copy,.back-cover-section .section-copy,.chapters p,.reader-grid p,.data-grid p,.format-card p,.faq-list p{color:var(--reference-body)}
 .faq-list summary,summary{color:var(--reference-white)}
 .text-link{color:var(--reference-white)}
+/* Alignment pass */
+.shell{width:min(1160px,calc(100% - 48px));margin-inline:auto}
+.hero.shell{width:100%;padding-left:max(24px,calc((100% - 1160px)/2));padding-right:max(24px,calc((100% - 1160px)/2))}
+.hero-copy{max-width:620px}.hero-lede{max-width:560px}.hero-actions{align-items:flex-start}
+.section,.problem-section,.inside-section,.reader-section,.data-section,.index-section,.voices-section,.formats-section,.faq-section,.back-cover-section,.author{overflow:hidden}
+.problem-grid,.back-cover-grid{max-width:1160px;margin-inline:auto}
+.reader-grid,.data-grid,.quotes,.chapters{align-items:stretch}
+.reader-grid article,.chapters article{height:100%;box-sizing:border-box}
+.author-card{min-height:360px}
+.sticky-offer{padding-left:max(20px,calc((100% - 1160px)/2));padding-right:max(20px,calc((100% - 1160px)/2))}
+@media(max-width:760px){.shell{width:calc(100% - 32px)}.hero.shell{width:calc(100% - 32px);padding-left:0;padding-right:0}.hero-copy{max-width:none}.hero-actions{align-items:stretch}.author-card{min-height:300px}.sticky-offer{padding-left:12px;padding-right:12px}}
