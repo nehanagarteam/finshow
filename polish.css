@@ -34,3 +34,10 @@ summary,.faq-list summary{color:var(--deep-text)}
 .ticker,.sticky-offer{background:var(--lime);color:var(--ink)}
 .sunburst{background:var(--lime)}
 @media(max-width:760px){.section,.section.shell,.author,.problem-section,.inside-section,.back-cover-section,.reader-section,.data-section,.index-section,.voices-section,.formats-section,.faq-section,.cta-section{background:var(--deep-bg)}}
+/* Reference text treatment: clean white type with warm yellow emphasis. */
+:root{--reference-white:#fff;--reference-body:#e8f1f3;--reference-yellow:#ffc53d}
+.nav nav a,.hero h1,.hero-lede,.hero-note,.section h2,.problem-section h2,.inside-section h2,.reader-section h2,.data-section h2,.index-section h2,.voices-section h2,.formats-section h2,.faq-section h2,.back-cover-section h2,.cta-section h2{color:var(--reference-white)}
+.hero h1 em,h2 em,.eyebrow,.hero .eyebrow,.back-cover-section .eyebrow{color:var(--reference-yellow)}
+.section-copy,.author-copy,.problem-section .section-copy,.back-cover-section .section-copy,.chapters p,.reader-grid p,.data-grid p,.format-card p,.faq-list p{color:var(--reference-body)}
+.faq-list summary,summary{color:var(--reference-white)}
+.text-link{color:var(--reference-white)}
