@@ -9,3 +9,25 @@ body{background:var(--paper);-webkit-font-smoothing:antialiased}
 .back-cover-frame img{box-shadow:-14px 16px 0 var(--orange)}.format-card,.sticky-offer{background:var(--lime)}
 .hero .button:focus-visible,.nav a:focus-visible,.button:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+/* Deep blue editorial theme based on the supplied reference */
+:root{--deep-bg:#062a40;--deep-bg-2:#07344d;--deep-card:#0b3a55;--deep-line:rgba(220,238,245,.18);--deep-text:#f4f8f8;--deep-muted:#b8cbd2}
+html,body{background:var(--deep-bg);color:var(--deep-text)}
+.nav,.hero,.problem-section,.inside-section,.back-cover-section,.reader-section,.data-section,.index-section,.voices-section,.formats-section,.faq-section,.cta-section{background:var(--deep-bg);color:var(--deep-text)}
+.hero{background:radial-gradient(circle at 82% 45%,rgba(24,92,128,.5),transparent 34%),var(--deep-bg)}
+.section,.section.shell,.author{background:var(--deep-bg);color:var(--deep-text)}
+.section h2,.reader-section h2,.index-section h2,.data-section h2,.formats-section h2,.voices-section h2,.back-cover-section h2,.faq-section h2{color:var(--deep-text)}
+.section-copy,.author-copy,.problem-section .section-copy,.chapters p,.reader-grid p,.data-grid p,.format-card p,.faq-list p{color:var(--deep-muted)}
+.problem-section,.voices-section{background:var(--deep-bg-2)}
+.inside-section{background:var(--deep-bg-2)}
+.chapters article,.reader-grid article,.data-grid>div,.quotes blockquote{background:var(--deep-card);border-color:var(--deep-line);color:var(--deep-text);box-shadow:0 12px 28px rgba(0,0,0,.16)}
+.chapters h3,.reader-grid h3,.quotes blockquote,.format-card h3{color:var(--deep-text)}
+.data-grid>div{border:1px solid var(--deep-line)}
+.accordion,.faq-list,details{border-color:var(--deep-line)}
+summary,.faq-list summary{color:var(--deep-text)}
+.footer{color:var(--deep-muted);border-color:var(--deep-line)}
+.back-cover-section .section-copy{color:var(--deep-muted)}
+.format-card{background:var(--lime);color:var(--ink)}
+.format-card h3,.format-card p{color:var(--ink)}
+.ticker,.sticky-offer{background:var(--lime);color:var(--ink)}
+.sunburst{background:var(--lime)}
+@media(max-width:760px){.section,.section.shell,.author,.problem-section,.inside-section,.back-cover-section,.reader-section,.data-section,.index-section,.voices-section,.formats-section,.faq-section,.cta-section{background:var(--deep-bg)}}
