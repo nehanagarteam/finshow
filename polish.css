@@ -8,6 +8,7 @@ body{background:var(--paper);-webkit-font-smoothing:antialiased}
 .data-grid strong,.reader-grid span,.format-tag{color:var(--orange)}.back-cover-section,.cta-section{background:var(--navy)}
 .back-cover-frame img{box-shadow:-14px 16px 0 var(--orange)}.format-card,.sticky-offer{background:var(--lime)}
 .hero .button:focus-visible,.nav a:focus-visible,.button:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.nav-home{display:none}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
 /* Deep blue editorial theme based on the supplied reference */
 :root{--deep-bg:#062a40;--deep-bg-2:#07344d;--deep-card:#0b3a55;--deep-line:rgba(220,238,245,.18);--deep-text:#f4f8f8;--deep-muted:#b8cbd2}
