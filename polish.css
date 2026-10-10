@@ -7,6 +7,7 @@ body{background:var(--paper);-webkit-font-smoothing:antialiased}
 .chapters article,.reader-grid article{background:var(--cream);border-color:#d7e4e2}.data-grid>div{background:#edf2f3}
 .data-grid strong,.reader-grid span,.format-tag{color:var(--orange)}.back-cover-section,.cta-section{background:var(--navy)}
 .back-cover-frame img{box-shadow:-14px 16px 0 var(--orange)}.format-card,.sticky-offer{background:var(--lime)}
+.back-cover-frame img{box-shadow:none}
 .hero .button:focus-visible,.nav a:focus-visible,.button:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .nav-home{display:none}
 .scribble{display:none}
