@@ -32,7 +32,7 @@ summary,.faq-list summary{color:var(--deep-text)}
 .format-card{background:var(--lime);color:var(--ink)}
 .format-card h3,.format-card p{color:var(--ink)}
 .author-card{overflow:hidden;background:transparent!important;border:0;border-radius:18px;position:relative;padding:0!important}
-.author-photo{display:block;width:min(82%,390px);height:auto;max-height:390px;object-fit:contain;object-position:center;margin:0 auto}
+.author-photo{display:block;width:min(82%,390px);height:auto;aspect-ratio:1/1;max-height:390px;object-fit:cover;object-position:center;margin:0 auto;border-radius:18px}
 .author-card p{position:absolute;left:22px;bottom:18px;margin:0;color:#fff;font-weight:700;text-shadow:0 2px 12px rgba(0,0,0,.45)}
 .ticker,.sticky-offer{background:var(--lime);color:var(--ink)}
 .sunburst{background:var(--lime)}
