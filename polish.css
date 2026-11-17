@@ -71,3 +71,21 @@ summary,.faq-list summary{color:var(--deep-text)}
 .footer span:nth-child(2){text-align:center}.footer a{text-align:right}
 @media(max-width:760px){.footer{padding-bottom:112px;grid-template-columns:1fr auto;gap:12px}.footer span:nth-child(2){text-align:right}.footer a{grid-column:1/-1;text-align:left}}
 @media(max-width:760px){.shell{width:calc(100% - 32px)}.hero.shell{width:calc(100% - 32px);padding-left:0;padding-right:0}.hero-copy{max-width:none}.hero-actions{align-items:stretch}.author-card{min-height:300px}.sticky-offer{padding-left:12px;padding-right:12px}}
+/* Real chapter list + who-it's-for + author credibility details */
+.chapter-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:56px}
+.chapter-row{display:flex;align-items:center;gap:16px;background:var(--deep-card);border:1px solid var(--deep-line);border-radius:14px;padding:18px 20px}
+.chapter-row .chapter-num{flex:none;width:40px;height:40px;border-radius:10px;background:var(--reference-yellow);color:#0b1f2e;font-weight:800;font-family:Manrope,sans-serif;display:grid;place-items:center;font-size:17px}
+.chapter-row small{display:block;color:var(--deep-muted);font:11px 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+.chapter-row strong{color:var(--deep-text);font-weight:700;font-size:16px}
+.who-section{padding:120px 0}
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
+.who-grid div{display:flex;align-items:center;gap:14px;background:var(--deep-card);border:1px solid var(--deep-line);border-radius:14px;padding:22px;font-weight:700;color:var(--deep-text)}
+.who-grid svg{flex:none;width:28px;height:28px;fill:var(--reference-yellow)}
+.who-note{margin-top:28px;font-style:italic;color:var(--reference-body)}
+.guest-credit{display:flex;align-items:center;gap:12px;margin-top:22px;border:1px solid rgba(255,197,61,.4);background:rgba(255,197,61,.08);border-radius:14px;padding:14px 18px;color:var(--deep-text);font-size:14.5px}
+.guest-credit strong{color:var(--reference-white)}
+.author-socials{display:flex;gap:12px;margin-top:20px}
+.author-socials a{width:40px;height:40px;border-radius:50%;border:1px solid var(--deep-line);display:grid;place-items:center;transition:border-color .2s,background .2s}
+.author-socials a:hover{border-color:var(--reference-yellow);background:rgba(255,197,61,.1)}
+.author-socials svg{width:17px;height:17px;fill:var(--reference-white)}
+@media(max-width:760px){.chapter-list{grid-template-columns:1fr;margin-top:40px}.who-section{padding:88px 0}.who-grid{grid-template-columns:1fr;margin-top:40px}}
